@@ -91,6 +91,39 @@ h2{
     transition:0.5s;
 }
 
+#support-button{
+    position:absolute;
+    right:30px;
+    bottom:30px;
+}
+
+#support-button img{
+    width:65px;
+    height:65px;
+    transition:0.3s;    
+}
+
+#support-button img:hover{
+    width:70px;
+    height:70px;
+}
+
+@media(max-width:1260px){
+    #header h1{
+        font-size:60px;
+    }
+
+    .button-container{
+        width:350px;
+    }
+
+    #support-button{
+        width:10px;
+        height:10px;
+        margin:0 30px 40px 0;
+    }
+}
+
 @media(max-width:576px){
     #header{
         height:103px;
@@ -135,6 +168,11 @@ h2{
         gap:25px;
         padding:10px 75px;
     }
+
+    #support-button{
+        width:50px;
+        height:50px;
+    }
 }
 
 @media(max-width:405px){
@@ -154,5 +192,10 @@ h2{
     .button-container span{
         font-size:16px;
         margin-left:50px;
+    }
+
+    #support-button{
+        width:45px;
+        height:45px;
     }
 }
