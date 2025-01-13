@@ -2,7 +2,8 @@
 body {
   background-color: #FDDBBE;
   box-sizing: border-box;
-  margin: 0 0
+  margin: 0 0;
+  position: relative;
 }
 
 .header {
@@ -197,4 +198,38 @@ body {
   .infos-text .auth-oficial, .time-shop, .instant-delivery {
     margin-bottom: 1em;
   }
+
+  .whats-icon {
+    background-color: #5dc716;
+    border-radius: 150px;
+    padding: 0.3em;
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    width: 3em;
+  }
+  
+  .whats-icon img {
+    width: 2em;
+  }
+}
+
+/* ================================================================= */
+
+.whats-icon {
+  background-color: #5dc716;
+  border-radius: 150px;
+  padding: 1em;
+  position: fixed;
+  right: 30px;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  width: 5em;
+}
+
+.whats-icon img {
+  width: 4em;
 }
