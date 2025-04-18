@@ -1,159 +1,223 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/60a52b8015.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="css/header.css" />
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Walter White Mods</title>
-	<!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '693533396367135');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=693533396367135&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17010290974"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <link rel="stylesheet" href="styles/output.css">
+    <link rel="shortcut icon" href="./assets/img/wws-logo.png" type="image/x-icon">
 
-  gtag('config', 'AW-17010290974');
-</script>
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '693533396367135');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=693533396367135&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17010290974"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-<!-- TikTok Pixel Code Start -->
-<script>
-!function (w, d, t) {
-  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(
-var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script")
-;n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+        gtag('config', 'AW-17010290974');
+    </script>
+
+    <!-- TikTok Pixel Code Start -->
+    <script>
+        !function (w, d, t) {
+            w.TiktokAnalyticsObject = t; var ttq = w[t] = w[t] || []; ttq.methods = ["page", "track", "identify", "instances", "debug", "on", "off", "once", "ready", "alias", "group", "enableCookie", "disableCookie", "holdConsent", "revokeConsent", "grantConsent"], ttq.setAndDefer = function (t, e) { t[e] = function () { t.push([e].concat(Array.prototype.slice.call(arguments, 0))) } }; for (var i = 0; i < ttq.methods.length; i++)ttq.setAndDefer(ttq, ttq.methods[i]); ttq.instance = function (t) {
+                for (
+                    var e = ttq._i[t] || [], n = 0; n < ttq.methods.length; n++)ttq.setAndDefer(e, ttq.methods[n]); return e
+            }, ttq.load = function (e, n) {
+                var r = "https://analytics.tiktok.com/i18n/pixel/events.js", o = n && n.partner; ttq._i = ttq._i || {}, ttq._i[e] = [], ttq._i[e]._u = r, ttq._t = ttq._t || {}, ttq._t[e] = +new Date, ttq._o = ttq._o || {}, ttq._o[e] = n || {}; n = document.createElement("script")
+                    ; n.type = "text/javascript", n.async = !0, n.src = r + "?sdkid=" + e + "&lib=" + t; e = document.getElementsByTagName("script")[0]; e.parentNode.insertBefore(n, e)
+            };
 
 
-  ttq.load('CVVDA9BC77U5A1PVVBTG');
-  ttq.page();
-}(window, document, 'ttq');
-</script>
-<!-- TikTok Pixel Code End -->
-  </head>
-  <body>
-    <div class="header">
-      <div class="logo">
-        <img src="imagens/logowalter.png" alt="" />
-      </div>
-      <div class="links">
-        <div class="discord">
-          <span>Loja / Discord</span>
-          <a href="https://discord.gg/aqQtUMYdmT" target="_blank"
-            ><img src="imagens/discordia.png" alt=""
-          /></a>
+            ttq.load('CVVDA9BC77U5A1PVVBTG');
+            ttq.page();
+        }(window, document, 'ttq');
+    </script>
+    <!-- TikTok Pixel Code End -->
+</head>
+
+<body>
+    <nav class="w-full h-[70px] bg-white .nav-bar fixed top-0 right-0 z-99" hidden>
+        <ul
+            class="w-full h-full flex justify-center items-center gap-8 text-lg font-medium medium:text-2xl medium:gap-12">
+            <li class="border-b-2 hover:text-green-500 duration-150 ease-linear medium:border-b-3">
+                <a href="#">HOME</a>
+            </li>
+            <li class="hover:text-green-500 duration-150 ease-linear">
+                <a href="#">F.A.Q</a>
+            </li>
+            <li>
+                <a href="#" class="hover:text-green-500 duration-150 ease-linear">CONTATO</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="bg-[#4C7100] h-[100vh] medium:h-[100vh] bg-gradient-to-t from-[#021108] z-0 relative">
+        <div
+            class="w-full h-full bg-[url('../assets/img/tabela_periodica.png')] absolute top-0 opacity-10 bg-cover bg-center">
         </div>
-        <div class="insta">
-          <span>Instagram</span>
-          <a href="https://www.instagram.com/worldwinnersbr/" target="_blank"
-            ><img src="imagens/instagram.png" alt=""
-          /></a>
-        </div>
-        <div class="youtube">
-          <span>Youtube</span>
-          <a href="https://www.youtube.com/@walterwhitemods" target="_blank"
-            ><img src="imagens/youtube.png" alt=""
-          /></a>
-        </div>
-        <div class="tiktok">
-          <span>Tiktok</span>
-          <a href="https://www.tiktok.com/@walterwhitemods" target="_blank"
-            ><img src="imagens/tiktok.png" alt=""
-          /></a>
-        </div>
-      </div>
-    </div>
-    <div class="main">
-      <div class="content">
-        <div class="quem-somos">
-          <img src="icons/check-double-solid.svg" alt="" />
-          <span class="a1">Quem somos?</span>
-          <div class="text">
-            <span></span>
-          </div>
-        </div>
-        <span class="text"
-          >A WWS foi fundada em janeiro de 2023 por @WalterWhiteOFC e, desde
-          então, se consolidou como uma base estratégica para jogadores que
-          buscam evoluir no universo gamer, com um foco especial em FPS. Nossa
-          missão é oferecer um ambiente seguro e confiável, onde a comunidade
-          encontra tudo o que precisa para subir de elo e aprimorar suas
-          skills.</span
-        >
-        <div class="support">
-          <img src="icons/check-double-solid (1).svg" alt="" />
-          <span class="a2">Suporte Humanizado</span>
-        </div>
-        <span class="text"
-          >Nosso atendimento é como uma cobertura tática: eficiente, preciso e
-          sempre pronto para dar suporte. Cada interação é pensada para garantir
-          que você tenha a confiança de que está em boas mãos.</span
-        >
-        <div class="vantagens">
-          <img src="icons/check-double-solid (2).svg" alt="" />
-          <span class="a3">Vantagens</span>
-        </div>
-        <span class="text"
-          >No nosso Discord, você tem acesso a uma loja com itens e vantagens
-          projetados para quem quer sempre estar um passo à frente. Também
-          promovemos sorteios, drops exclusivos e eventos que ajudam você a
-          expandir seu arsenal, tudo isso enquanto interage com uma equipe
-          focada em entregar o melhor para os players</span
-        >
-      </div>
-    </div>
-    <div class="infos">
-      <div class="info-content">
-        <div class="info-text">
-          <h2>Informações</h2>
-        </div>
-        <div class="infos-text">
-          <div class="auth-oficial">
-            <div class="contents">
-              <img src="icons/bag-shopping-solid.svg" alt="" />
-              <span class="a1b">Autorização Oficial</span>
+        <div class="w-full h-full bg-black absolute top-0 opacity-22"></div>
+
+        <main class="w-full h-full flex flex-col items-center justify-center text-white">
+            <div class="title-container text-4xl flex flex-col items-center mt-16 z-1">
+                <h1 class=" font-medium md:text-7xl high:text-9xl">WORLDWINNERS<span
+                        class="text-[20px] font-medium">br</span></h1>
+                <h2 class="text-3xl md:text-5xl high:text-6xl">COMMUNITY</h2>
             </div>
-            <span class="texts">Revendedor Oficial</span>
-          </div>
 
-          <div class="time-shop">
-            <div class="contents">
-              <img src="icons/clock-solid.svg" alt="" />
-              <span class="a2b">Tempo de Mercado</span>
+            <div
+                class="px-8 flex flex-col items-center medium:flex-row medium:justify-center medium:mt-10 medium:gap-20">
+                <p
+                    class="mt-15 z-1 md:text-lg medium:text-2xl medium:w-[60%] lg:text-3xl medium:font-thin high:text-4xl">
+                    A WWS foi fundada em janeiro de 2023 por @WalterWhiteOFC e, desde então, se consolidou como uma base
+                    estratégica para jogadores que buscam evoluir no universo gamer, com um foco especial em FPS. Nossa
+                    missão é oferecer um ambiente seguro e confiável, onde a comunidade encontra tudo o que precisa para
+                    subir de elo e aprimorar suas skills.</p>
+
+                <div class="w-[30%] h-full flex flex-col justify-center items-center gap-5 pt-10">
+                    <a href="https://discord.com/invite/aqQtUMYdmT" target="_blank"
+                        class=" bg-[#5765EC] w-60 outline-transparent outline-2 flex items-center gap-3 px-5 py-2 rounded-xl z-1 medium:h-30 medium:w-60 hover:outline-white duration-100">
+                        <img src="./assets/img/discord-logo.svg" alt="Discord Logo" class="w-15">
+                        <span class="text-center text-white font-medium text-lg medium:text-xl">Juntar-se a
+                            comunidade</span>
+                    </a>
+
+                    <a href="https://store.worldwinnersbr.com" target="_blank"
+                        class="bg-white w-60 outline-2 outline-transparent flex items-center gap-3 px-5 py-2 rounded-xl z-1 medium:h-30 medium:w-60 hover:outline-white duration-100">
+                        <img src="./assets/img/wws-logo.png" alt="Discord Logo" class="w-15">
+                        <span class="text-center text-black font-medium text-lg medium:text-xl">Acessar nossa
+                            Loja</span>
+                    </a>
+                </div>
             </div>
-            <span class="texts">2 anos</span>
-          </div>
-          <div class="instant-delivery">
-            <div class="contents">
-              <img src="icons/box-solid.svg" alt="" />
-              <span class="a3b">Entrega Instantânea</span>
+        </main>
+
+    </section>
+
+    <section class="w-[80%] mt-8 grid medium:grid-cols-2 gap-10 mx-auto mb-20 text-white">
+
+        <div class="border-2 border-white w-full rounded-2xl p-7">
+            <div class="flex text-2xl md:text-4xl font-medium justify-center items-center mb-10 gap-5 h-20">
+                <img src="./assets/img/box.svg" alt="Imagem de uma caixa" class="w-14 md:w-17">
+                <span class="text-center">Entrega Automática</span>
             </div>
-            <span class="texts">Entregas automáticas</span>
-          </div>
+            <p class="medium:text-xl">Nossa loja conta com um sistema de entregas automático, o que significa que você
+                receberá o seu produto assim que o adquirir, sem precisar esperar por dias para receber o seu produto.
+            </p>
         </div>
-      </div>
-    </div>
-    <div class="whats-icon">
-      <a href="https://wa.me/message/T2UE6F4ZWGFAN1"><img src="icons/whatsapp-brands-solid.svg" alt="sdsdsadf" /></a>
-    </div>
-  </body>
+
+        <div class="border-2 border-white w-full rounded-2xl p-7">
+            <div class="flex text-2xl md:text-4xl font-medium justify-center items-center mb-10 gap-5 h-20">
+                <img src="./assets/img/support.svg" alt="Imagem de um fone de atendente" class="w-14 md:w-17">
+                <span class="text-center">Suporte Humanizado</span>
+            </div>
+            <p class="medium:text-xl">Contamos com um suporte que visa fornecer o melhor atendimento possível aos nossos
+                clientes, de maneira rápida e humanizada. Cada interação é pensada para garantir que você tenha a
+                confiança de que está em boas mãos.</p>
+        </div>
+
+        <div class="border-2 border-white w-full rounded-2xl p-7">
+            <div class="flex text-2xl md:text-4xl font-medium justify-center items-center mb-10 gap-5 h-20">
+                <img src="./assets/img/products.svg" alt="Imagem de vários quadrados" class="w-14 md:w-17">
+                <span class="text-center">+20 Produtos</span>
+            </div>
+            <p class="medium:text-xl">Atualmente contamos com mais de 20 produtos em nossa loja e buscamos sempre
+                revender os melhor produtos e oferecer uma ampla variedade para que nossos clientes escolham aquele que
+                melhor lhes atende.</p>
+        </div>
+
+        <div class="border-2 border-white w-full rounded-2xl p-7">
+            <div class="flex text-2xl md:text-4xl font-medium justify-center items-center mb-10 gap-5 h-20">
+                <img src="./assets/img/updates.svg" alt="Duas setas formando um círculo" class="w-14 md:w-17">
+                <span class="text-center">Atualizações Frequentes</span>
+            </div>
+            <p class="medium:text-xl">Nossa comunidade passa por constantes atualizações, procuramos sempre oferecer os
+                melhores serviços aos nossos clientes.</p>
+        </div>
+
+        <div class="border-2 border-white w-full rounded-2xl p-7">
+            <div class="flex text-2xl md:text-4xl font-medium justify-center items-center mb-10 gap-5 h-20">
+                <img src="./assets/img/raffle.svg" alt="Imagem de dois dados" class="w-14 md:w-17">
+                <span class="text-center">Sorteio de Produtos</span>
+            </div>
+            <p class="medium:text-xl">Frequentemente realizamos sorteios de produtos dentro da nossa comunidade.</p>
+        </div>
+
+        <div class="border-2 border-white w-full rounded-2xl p-7">
+            <div class="flex text-2xl md:text-4xl font-medium justify-center items-center mb-10 gap-5 h-20">
+                <img src="./assets/img/controller.svg" alt="Imagem de um controle" class="w-14 md:w-17">
+                <span class="text-center">Avisos de Jogos Grátis</span>
+            </div>
+            <p class="medium:text-xl">Frequentemente realizamos sorteios de produtos dentro da nossa comunidade.</p>
+        </div>
+    </section>
+
+    <section class="px-10">
+        <h2 class="text-white uppercase font-bold text-lg text-center medium:text-2xl lg:text-3xl">Junte-se a nós e
+            aproveite esses e outros benefícios</h2>
+
+        <a href="https://discord.com/invite/aqQtUMYdmT" target="_blank"
+            class="my-15 bg-[#5765EC] w-60 border-2 border-transparent flex justify-center items-center lg:w-[40%] lg:h-17 gap-5 px-5 py-2 rounded-xl z-1 mx-auto hover:border-white duration-100">
+            <img src="./assets/img/discord-logo.svg" alt="Discord Logo" class="w-15">
+            <span class="text-center text-white font-bold text-xl lg:text-2xl ">Juntar-se a comunidade</span>
+        </a>
+    </section>
+
+    <footer class="bg-[#2B2B2B] text-white p-2 pr-4 pl-4 flex flex-col items-center">
+        <div class="flex mb-6">
+            <!-- Sobre Nós -->
+            <div class="w-[60%] medium:w-[75%] medium:pr-10">
+                <h3 class=" font-bold mb-6 text-lg"> Sobre nós</h3>
+                <p class="md:text-lg md:pr-4">WWS, fundada em 2023 por @WalterWhiteOFC, é uma base estratégica para
+                    jogadores de FPS focada em evolução e aprimoramento de skills.</p>
+            </div>
+
+            <!-- Redes Sociais -->
+            <div class="w-[40%] ml-3 medium:w-[25%]">
+                <h3 class=" font-bold mb-7 text-lg">Redes Sociais</h3>
+                <div class="medium:flex medium:gap-5">
+                    <a class="flex gap-2 mb-3 hover:scale-105 duration-100"
+                        href="https://www.instagram.com/worldwinnersbr/" target="_blank">
+                        <img src="./assets/img/instagram_logo.svg" class="w-7 h-7" alt="Logo do Instagram">
+                        <span class="font-semibold">Instagram</span>
+                    </a>
+
+                    <a class="flex gap-2 mb-3 hover:scale-105 duration-100"
+                        href="https://www.youtube.com/@walterwhitemods" target="_blank">
+                        <img src="./assets/img/youtube_logo.svg" class="w-7 h-7" alt="Logo do Youtube">
+                        <span class="font-semibold">YouTube</span>
+                    </a>
+
+                    <a class="flex gap-2 mb-3 hover:scale-105 duration-100"
+                        href="https://www.tiktok.com/@walterwhitemods" target="_blank">
+                        <img src="./assets/img/tiktok_logo.svg" class="w-7 h-7" alt="Logo do TikTok">
+                        <span class="font-semibold">TikTok</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <span class="font-thin text-sm mb-2">© WorldWinnersBR® 2023-2025 - Be a winner</span>
+    </footer>
+</body>
+
 </html>
